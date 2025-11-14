@@ -1,10 +1,3 @@
-/* ******************* Piano de Bananas - Adaptado para Arduino UNO *******************
-   Criado por: Anderson Harayashiki Moreira
-   Adaptado para Arduino UNO (sem Keyboard.h)
-   Rev.: 02
-   Data: 16.05.2025
-******************************************************************************* */
-
 #include <movingAvg.h>
 
 // Ajuste conforme necessário
@@ -53,3 +46,4 @@ void loop() {
     pinos[i].pressionado = estadoAtual;
   }
 }
+
